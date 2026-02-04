@@ -1,14 +1,23 @@
+age = input("How old are you?")
+y = int(age)
+if y < 12 or y >= 65:
+    print("you get a super awesome discount")
+else:
+    print('get out!')
+
+isMember = input("Are you a member?")
+if isMember == "yes":
+    print("you get a super awesome discount")
+else:
+    print('get out!')
 
 
-def discount(age, isMember, isResident):
-    if age < 12:
-        age = True
-    elif age >= 65:
-        age = True
-    elif isMember = 'yes'
-        isMember = True
-    elif isResident = 'yes'
-        isResident = True
 
-    if isResident or isMember or age:
+
+
+
+
+
+
+
 
