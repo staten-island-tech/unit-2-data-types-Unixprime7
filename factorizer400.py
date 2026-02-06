@@ -1,13 +1,14 @@
 number = input("State a number ")
 number_value = int(number)
-divisor = 1
-factor = number_value / divisor
-remainder = number_value % divisor
+
 
 for i in range(number_value):
-    i = divisor
+    x = i + 1
+    factor = number_value / x
+    remainder = number_value % x
+    
     if remainder == 0:
-        print(factor)
-        divisor = divisor + 1
+        print(int(factor))
+        x = x + 1
     else:
-        divisor = divisor + 1
+        x = x + 1
